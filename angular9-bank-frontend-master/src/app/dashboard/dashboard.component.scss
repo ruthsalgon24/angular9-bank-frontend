@@ -1,0 +1,29 @@
+#dashboard-component {
+  h3 {
+    font-size: 24px;
+  }
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+}
+
+
+.main-nav a {
+
+    float: right;
+    border: none;
+    margin-right: 5%;
+    margin-top: -3%;
+    background: transparent;
+    font-size: 15px;
+    padding: none;
+    font-family: sans-serif;
+}
+.header:hover
+{
+    background: red;
+    cursor: pointer;
+}
