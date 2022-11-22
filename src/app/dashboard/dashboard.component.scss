@@ -8,9 +8,18 @@
   
   }
   background-image: url('../../assets/dashboard-bg.jpg');
-  background-size: cover;
-  background-position-y: center;
 
+  min-height: 81%;
+  min-width: 1024px;
+
+ /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+ /* Set up positioning */
+  position: fixed;
+  top: 20;
+  left: 0;
 
 }
 
